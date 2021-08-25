@@ -132,7 +132,7 @@ h2 {
 
 .llenar {
     background-color:#3C2313;
-    color: white;
+    color: #f4f4f4; /*no pude hacerlo blanco */
     width: 25rem;
     height: 40px;
     border-radius: 1rem;
@@ -155,6 +155,7 @@ h2 {
     color: white;
     font-size: 1.3rem;
     margin-bottom: 2rem;
+    border: none;
 }
 
 .resetear {
