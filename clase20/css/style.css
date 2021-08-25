@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    height: 90px;
+}
+
+nav {
+    display: none;
+}
+
+.menu-sup {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.oferta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 512px;
+}
+
+.descuento {
+    display: flex;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.cambio {
+    color:#D01418;
+    padding-right: 0.5rem;
+}
+
+.comprar {
+    background-color: #D01418;
+    color: white;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 4rem;
+}
+
+.bloque {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    background-color:#C4C4C4;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+    font-weight: lighter;
+    background-color: #C4C4C4;
+}
+
+.cajas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 322px;
+    width: 15rem;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.texto {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5rem;
+    margin-left: -4rem;
+}
+
+.precio {
+    font-size: 1.2rem;
+    padding-bottom: 0.5;
+}
+
+.cuotas {
+    font-size: 0.8rem;
+    padding-bottom: 0.5;
+}
+
+.envio {
+    color: #619D00;
+    font-size: 0.7rem;
+}
+
+.bloque-dos {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    background-color:#C4C4C4;
+    padding-top: 1rem;
+}
+
+.caja-silla {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(../img/sillaGamer.png);
+    background-repeat: no-repeat;
+    width: 18rem;
+    height: 108px;
+    margin-bottom: 1rem;
+}
+
+.caja-compu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(../img/computadoras.png);
+    background-repeat: no-repeat;
+    width: 18rem;
+    height: 108px;
+    margin-bottom: 3rem;
+}
+
+.texto-foto {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 2rem;
+    color: #F3F3F3;
+    font-size: lighter;
+    font-size: 0.8rem;
+}
+
+.pie {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222222;
+    height: 191px;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: white
+}
+
+.iconos {
+    padding-right: 2rem;
+}
+
+.derechos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C4C4C4;
+    height: 25px;
+    font-size: 0.7rem;
+}
+
+
+
+@media (min-width: 1024px) {
+
+    #acotado {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    ul {
+        display: flex;
+        color: white;
+    }
+
+    li {
+        list-style: none;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .carrito {
+        padding-right: 1rem;
+        width: 3rem;
+        height: 45px;
+        padding-top: 1.2rem;
+    }
+
+    .bloque {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bloque-dos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .caja-compu {
+        margin-top: 2rem;
+    }
+
+    .pie {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .iconos {
+        position: relative;
+        top: 1.3rem;
+    }
+
+    .redes {
+        position: relative;
+        top: -1.5rem;
+        right: -19.5rem;
+        font-size: 1.3rem;
+    }
+}

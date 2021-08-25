@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 1024px;
+}
+
+.menu {
+    height: 100px;
+    background-color: #222222;
+    color: #F3F3F3;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 0px 25px;
+}
+
+.listado {
+    display: flex;
+    list-style: none;
+}
+
+.itemsmenu {
+    padding: 0px 20px;
+}
+
+.centro {
+    background-color: #E5E5E5;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto {
+    background-image: url(../img/delivery.jpg);
+    width: 490px;
+    height: 350px;
+    margin-right: 10px;
+}
+
+.envio {
+    font-size: 24px;
+    color: #FC200C;
+    margin: 20px;
+}
+
+.col {
+    color: #FFFFFF;
+}
+
+.variedades {
+    position: relative;
+    background-color: #FFFFFF;
+    width: 490px;
+    height: 350px;
+}
+
+.podio {
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FC200C;
+    top: 30px;
+    left: 170px;
+}
+
+.pizzas {
+    position: absolute;
+    top: 112px;
+    left: 55px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.todas {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mu {
+    position: absolute;
+    top: 151px;
+    left: 56px;
+}
+
+.ha {
+    position: absolute;
+    top: 184px;
+    left: 56px;
+}
+
+.ja {
+    position: absolute;
+    top: 213px;
+    left: 56px;
+}
+
+.fu {
+    position: absolute;
+    top: 242px;
+    left: 56px;
+}
+
+.ca {
+    position: absolute;
+    top: 271px;
+    left: 56px;
+}
+
+.arbol {
+    position: absolute;
+    top: 132px;
+    right: 74px;
+}
+
+.pie {
+    height: 150px;
+    background-color: #222222;
+    color: #F3F3F3;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pie-listado {
+    list-style: none;
+    flex-direction: column;
+}
+
+.itemspie {
+    padding: 7px 20px;
+}
+
+.logo-abajo {
+    padding: 0px 25px;
+}

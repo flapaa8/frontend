@@ -1,0 +1,60 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    background: #1CD1B0;
+    height: 38px;
+    width: 100%;
+    margin:0;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+.cabecera{
+    height: 101px;
+    width: 100%;
+    position: fixed;
+    top: 38px;
+    left: 0;
+    background: #00669F;
+    margin: 0;
+    display: flex;
+}
+
+#heroes{
+    display: flex;
+    height: 47px;
+    width: 128px;
+    margin-left: 24px;
+    margin-top: 30px;
+}
+.body{
+   text-align: center; 
+}
+.card{
+    height: 530px;
+    width: 300px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top:  292px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    background-color: #f3f3f3;
+    border-radius:10%   5%;
+}
+.minimg{
+    align-self: center;
+    margin-top: -80px;
+    
+}
+button{
+    background-color: #00669F;
+    padding: 10px 5px;
+    border-radius: 25%;
+    color: #f3f3f3;
+}
+
+
+

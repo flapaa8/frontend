@@ -1,0 +1,411 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+.barra-superior {
+    background-color: #222222;
+    color: #F3F3F3;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.iconomenu {
+    display: none;
+}
+
+.listas {
+    list-style: none;
+}
+
+.sup, .inf {
+    display: flex;
+}
+
+.items {
+    margin-right: 1rem;
+}
+
+.barra-menu-principal {
+    background-color: #F0A83E;
+    color:#FFFFFF;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    background-image: url(../img/background.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.placer {
+    display: flex;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: white;
+    margin-top: 10rem;
+    margin-right: 2rem;
+}
+
+.descuento {
+    display: flex;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-right: 8rem;
+}
+
+.comederos {
+    display: flex;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background: #F0A83E;
+    margin-top: 1rem;
+    margin-right: 10rem;
+}
+
+.debajofoto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.articulos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+}
+
+.cajas {
+    background-color: #FBFAF6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.precio {
+    color: #F0A83E;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nombref {
+    color: #3C2313;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.llenar {
+    background-color:#3C2313;
+    color: white;
+    width: 25rem;
+    height: 40px;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.dosbotones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.resetear, .enviar {
+    display: flex;
+    width: 10rem;
+    height: 40px;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.resetear {
+    background-color: #8A8787;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    margin-right: 1rem;
+}
+
+.enviar {
+    background-color: #F0A83E;
+    padding-left: 3rem;
+    padding-top: 0.5rem;
+}
+
+.pre-final {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #F0A83E;
+    height: 60px;
+}
+
+.foto-correo {
+    display: flex;
+    position: absolute;
+    left: 1rem;
+}
+
+.novedades {
+    display: flex;
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+    left: 5rem;
+}
+
+.doselementos {
+    display: flex;
+    flex-direction: row;
+}
+
+.campo {
+    display: flex;
+    background-color: white;
+    width: 15rem;
+    height: 30px;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    position: absolute;
+    right: 9rem;
+    top: 1rem;
+}
+
+.campoder {
+    display: flex;
+    background-color: #3C2313;
+    color: white;
+    width: 7rem;
+    height: 30px;
+    border-radius:1.5rem;
+    padding-top: 0.3rem;
+    padding-left: 0.7rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.resetear:hover {
+    background-color: blue;
+    color:orangered;
+}
+
+.enviar:hover {
+    background-color: blue;
+    color: orangered;
+}
+
+.campoder:hover {
+    background-color: blue;
+    color: orangered;
+}
+
+.llenar:focus {
+    background-color:darkblue;
+}
+
+.campo:focus {
+    background-color:darkblue;
+}
+
+.foto-correo:hover {
+    background-color:indigo;
+}
+
+.novedades:hover {
+    color: indigo;
+}
+
+
+
+.contacto {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: #3C2313;
+    color: white;
+    height: 260px;
+}
+
+.remarcado {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.pequeño {
+    font-size: 0.7rem;
+    font-weight: lighter;
+    color: #8A8787;
+}
+
+.columnauno {
+    display: flex;
+    flex-direction: column;
+    padding-right: 1rem;
+}
+
+.iconos {
+    padding: 0.7rem 0rem 0.7rem 2rem;
+}
+
+
+.columnados {
+    display: flex;
+    flex-direction: column;
+}
+
+.arriba, .medio, .abajo {
+    padding-top: 2rem;
+}
+
+.arriba {
+    margin-top: -2rem;
+}
+
+.columnatres {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 2rem;
+}
+
+.derechos {
+    background-color: #222222;
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.7rem;
+}
+
+/** media iphone 7 portrait **/
+
+@media (max-width: 750px) {
+
+    .barra-superior, .inf {
+        display: none;
+    }
+
+    .iconomenu {
+        display: flex;
+        justify-content: right;
+        padding-right: 1rem;
+    }
+
+    .placer {
+        font-size: 1.5rem;
+        margin-right: 5rem;
+    }
+
+    h2 {
+        width: 80%;
+        text-align: center;
+    }
+
+    .articulos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .cajas {
+        display: flex;
+        margin-bottom: 2rem;
+    }
+
+    .contacto {
+        height: 350px;
+        align-items: center;
+    }
+
+    .columnatres {
+        width: 10rem;
+        left: 5rem;
+        top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .llenar {
+        width: 18rem;
+    }
+
+    .pre-final {
+        height: 100px;
+        position: relative;
+    }
+
+    .foto-correo {
+        position: absolute;
+        top: 1rem;
+    }
+
+    .novedades {
+        position: absolute;
+        top: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .doselementos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .campo {
+        display: flex;
+        position: absolute;
+        top: 3.5rem;
+        left: 1rem;
+        width: 13rem;
+    }
+
+    .campoder {
+        display: flex;
+        position: absolute;
+        top: 3.5rem;
+        right: 2rem;
+    }
+}
